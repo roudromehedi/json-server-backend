@@ -34,6 +34,13 @@
             "year": "2004",
             "runtime": "123 min",
             "poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Oppenheimer",
+            "year": "2023",
+            "runtime": "180 min",
+            "poster": "https://assets.cdn.moviepilot.de/files/0862a896955015ff21d09e58f6953141dd2b41eaf5e1daa5759f95f5943f/copyright/Oppenheimer-Hauptplakat-A4-RGB.jpg"
         }
     ]
 }
