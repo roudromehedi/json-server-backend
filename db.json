@@ -1,46 +1,343 @@
 {
-    "movies": [
-        {
-            "id": 1,
-            "title": "The Lion King",
-            "year": "2020",
-            "runtime": "118 min",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg"
-        },
-        {
-            "id": 2,
-            "title": "Mowgli: Legend of the Jungle",
-            "year": "2018",
-            "runtime": "104 min",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg"
-        },
-        {
-            "id": 3,
-            "title": "Doctor Strange",
-            "year": "2016",
-            "runtime": "115 min",
-            "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg"
-        },
-        {
-            "id": 4,
-            "title": "John Wick",
-            "year": "2014",
-            "runtime": "101 min",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg"
-        },
-        {
-            "id": 5,
-            "title": "The Notebook",
-            "year": "2004",
-            "runtime": "123 min",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg"
-        },
-        {
-            "id": 6,
-            "title": "Oppenheimer",
-            "year": "2023",
-            "runtime": "180 min",
-            "poster": "https://assets.cdn.moviepilot.de/files/0862a896955015ff21d09e58f6953141dd2b41eaf5e1daa5759f95f5943f/copyright/Oppenheimer-Hauptplakat-A4-RGB.jpg"
-        }
-    ]
+  "movies": [
+    {
+      "id": 1,
+      "theaters": [
+        2,
+        9,
+        1
+      ],
+      "showTime": [
+        "7:00 pm",
+        "9:00 pm",
+        "11:00 pm"
+      ],
+      "title": "The Lion King",
+      "year": "2020",
+      "runtime": "118 min",
+      "rating": "8/10",
+      "genere": "Mystry/Thriller",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg"
+    },
+    {
+      "id": 2,
+      "theaters": [
+        4,
+        6,
+        7
+      ],
+      "showTime": [
+        "7:00 pm",
+        "9:00 pm",
+        "11:00 pm"
+      ],
+      "title": "Mowgli: Legend of the Jungle",
+      "year": "2018",
+      "runtime": "104 min",
+      "rating": "8/10",
+      "genere": "Mystry/Thriller",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg"
+    },
+    {
+      "id": 3,
+      "theaters": [
+        5,
+        3,
+        11
+      ],
+      "showTime": [
+        "7:00 pm",
+        "9:00 pm",
+        "11:00 pm"
+      ],
+      "title": "Doctor Strange",
+      "year": "2016",
+      "runtime": "115 min",
+      "rating": "8/10",
+      "genere": "Mystry/Thriller",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg"
+    },
+    {
+      "id": 4,
+      "theaters": [
+        12,
+        10,
+        8
+      ],
+      "showTime": [
+        "7:00 pm",
+        "9:00 pm",
+        "11:00 pm"
+      ],
+      "title": "John Wick",
+      "year": "2014",
+      "runtime": "101 min",
+      "rating": "8/10",
+      "genere": "Mystry/Thriller",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg"
+    },
+    {
+      "id": 5,
+      "theaters": [
+        5,
+        1,
+        11
+      ],
+      "showTime": [
+        "7:00 pm",
+        "9:00 pm",
+        "11:00 pm"
+      ],
+      "title": "The Notebook",
+      "year": "2004",
+      "runtime": "123 min",
+      "rating": "8/10",
+      "genere": "Mystry/Thriller",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg"
+    },
+    {
+      "id": 6,
+      "theaters": [
+        5,
+        3,
+        11
+      ],
+      "showTime": [
+        "7:00 pm",
+        "9:00 pm",
+        "11:00 pm"
+      ],
+      "title": "The lords of the ring",
+      "year": "2018",
+      "runtime": "104 min",
+      "rating": "8/10",
+      "genere": "Mystry/Thriller",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg"
+    },
+    {
+      "id": 7,
+      "theaters": [
+        2,
+        3,
+        1
+      ],
+      "showTime": [
+        "7:00 pm",
+        "9:00 pm",
+        "11:00 pm"
+      ],
+      "title": "New Movie",
+      "year": "2023",
+      "runtime": "120 min",
+      "rating": "8/10",
+      "genere": "Mystry/Thriller",
+      "poster": "https://example.com/new-movie-poster.jpg"
+    },
+    {
+      "name": "xxx",
+      "runtime": 5,
+      "id": 9
+    },
+    {
+      "title": "Test Movie",
+      "year": "2021",
+      "runtime": "170",
+      "rating": "8/10",
+      "genere": "Thriller",
+      "poster": "https://i.ebayimg.com/images/g/YJQAAOSwUjxjyvgk/s-l1600.jpg",
+      "theaters": [
+        2,
+        9
+      ],
+      "showTime": [
+        "11:00 pm",
+        "7:00 pm",
+        "9:00 pm"
+      ],
+      "id": 10
+    },
+    {
+      "title": "hgfdh",
+      "year": "",
+      "runtime": "",
+      "rating": "",
+      "genere": "",
+      "poster": "",
+      "theaters": [],
+      "showTime": [],
+      "id": 11
+    },
+    {
+      "title": "Avatar",
+      "year": "2009",
+      "runtime": "210",
+      "rating": "9/10",
+      "genere": "Adventure",
+      "poster": "https://lumiere-a.akamaihd.net/v1/images/avatar_800x1200_208c9665.jpeg?region=0%2C0%2C800%2C1200",
+      "theaters": [
+        1,
+        2
+      ],
+      "showTime": [
+        "11:00 pm",
+        "9:00 pm"
+      ],
+      "id": 12
+    },
+    {
+      "title": "sdf",
+      "year": "sdf",
+      "runtime": "sdf",
+      "rating": "sdf",
+      "genere": "fxghd",
+      "poster": "sfd",
+      "theaters": [
+        1,
+        2
+      ],
+      "showTime": [
+        "9:00 pm",
+        "7:00 pm"
+      ],
+      "genre": "sdf",
+      "id": 13
+    },
+    {
+      "title": "Hello",
+      "year": "2004",
+      "runtime": "189",
+      "rating": "9/6",
+      "genere": "Action",
+      "poster": "https://venngage-wordpress.s3.amazonaws.com/uploads/2018/02/black-panther-poster-2-1.jpg",
+      "theaters": [
+        1
+      ],
+      "showTime": [
+        "9:00 pm"
+      ],
+      "id": 14
+    }
+  ],
+  "bookings": [
+    {
+      "movieId": 3,
+      "title": "Doctor Strange",
+      "selectedShowTime": "11:00 pm",
+      "selectedQuantity": 3,
+      "id": 27
+    },
+    {
+      "movieId": 3,
+      "title": "Doctor Strange",
+      "selectedShowTime": "9:00 pm",
+      "selectedQuantity": 5,
+      "id": 28
+    },
+    {
+      "movieId": 1,
+      "title": "The Lion King",
+      "selectedShowTime": "9:00 pm",
+      "selectedQuantity": 1,
+      "id": 29
+    },
+    {
+      "movieId": 6,
+      "title": "The lords of the ring",
+      "selectedShowTime": "7:00 pm",
+      "selectedQuantity": 4,
+      "id": 30
+    },
+    {
+      "movieId": 4,
+      "title": "John Wick",
+      "selectedShowTime": "11:00 pm",
+      "selectedQuantity": 3,
+      "id": 31
+    },
+    {
+      "movieId": 2,
+      "title": "Mowgli: Legend of the Jungle",
+      "selectedShowTime": "11:00 pm",
+      "selectedQuantity": 4,
+      "id": 32
+    },
+    {
+      "movieId": 4,
+      "title": "John Wick",
+      "selectedShowTime": "7:00 pm",
+      "selectedQuantity": 2,
+      "id": 33
+    },
+    {
+      "movieId": 10,
+      "title": "Test Movie",
+      "selectedShowTime": "9:00 pm",
+      "selectedQuantity": 2,
+      "id": 34
+    },
+    {
+      "movieId": 12,
+      "title": "Avatar",
+      "selectedShowTime": "11:00 pm",
+      "selectedQuantity": 3,
+      "id": 35
+    },
+    {
+      "movieId": 1,
+      "title": "The Lion King",
+      "selectedShowTime": "9:00 pm",
+      "selectedQuantity": 5,
+      "id": 36
+    }
+  ],
+  "theaters": [
+    {
+      "id": 1,
+      "theaterName": "Black Box",
+      "theaterType": "Luxury",
+      "seatingCapacity": 120,
+      "wheelChair": true,
+      "soundSystem": "Dolby Atmos",
+      "resolution": "4k",
+      "dimention": "3D",
+      "speakers": 18,
+      "screenSize": 96
+    },
+    {
+      "id": 2,
+      "theaterName": "Park House",
+      "theaterType": "Delux",
+      "seatingCapacity": 220,
+      "wheelChair": true,
+      "soundSystem": "Dolby Atmos",
+      "resolution": "4k",
+      "dimention": "3D",
+      "speakers": 42,
+      "screenSize": 206
+    },
+    {
+      "id": 3,
+      "theaterName": "Sky Dream",
+      "theaterType": "Premium",
+      "seatingCapacity": 90,
+      "wheelChair": true,
+      "soundSystem": "Dolby 5.1",
+      "resolution": "4k",
+      "dimention": "3D",
+      "speakers": 28,
+      "screenSize": 80
+    },
+    {
+      "id": 4,
+      "theaterName": "Forest Lounge",
+      "theaterType": "Comfort",
+      "seatingCapacity": 100,
+      "wheelChair": true,
+      "soundSystem": "Dolby 7.1",
+      "resolution": "4k",
+      "dimention": "3D",
+      "speakers": 30,
+      "screenSize": 109
+    }
+  ]
 }
