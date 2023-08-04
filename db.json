@@ -149,22 +149,6 @@
       "rating": "8.7/10",
       "genere": "Adventure/Drama",
       "poster": "https://i.ebayimg.com/images/g/YJQAAOSwUjxjyvgk/s-l1600.jpg"
-    },
-    {
-      "id": 24,
-      "theaters": [
-        1,
-        4
-      ],
-      "showTime": [
-        "8:00 pm"
-      ],
-      "title": "Dreamscape",
-      "year": "2023",
-      "runtime": "122 min",
-      "rating": "8.4/10",
-      "genere": "Sci-Fi/Fantasy",
-      "poster": "https://lumiere-a.akamaihd.net/v1/images/avatar_800x1200_208c9665.jpeg?region=0%2C0%2C800%2C1200"
     }
   ],
   "bookings": [
