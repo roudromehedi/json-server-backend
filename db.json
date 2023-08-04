@@ -1,25 +1,6 @@
 {
   "movies": [
     {
-      "id": 2,
-      "theaters": [
-        4,
-        6,
-        7
-      ],
-      "showTime": [
-        "7:00 pm",
-        "9:00 pm",
-        "11:00 pm"
-      ],
-      "title": "Mowgli: Legend of the Jungle",
-      "year": "2018",
-      "runtime": "10 min",
-      "rating": "8/10",
-      "genere": "Mystry/Thriller",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg"
-    },
-    {
       "id": 3,
       "theaters": [
         5,
@@ -31,7 +12,7 @@
         "9:00 pm",
         "11:00 pm"
       ],
-      "title": "Doctor Strange",
+      "title": "Doctor Strange 3",
       "year": "2016",
       "runtime": "115 min",
       "rating": "8/10",
@@ -56,24 +37,6 @@
       "rating": "8/10",
       "genere": "Mystry/Thriller",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg"
-    },
-    {
-      "title": "Test Movie",
-      "year": "2021",
-      "runtime": "170",
-      "rating": "8/10",
-      "genere": "Thriller",
-      "poster": "https://i.ebayimg.com/images/g/YJQAAOSwUjxjyvgk/s-l1600.jpg",
-      "theaters": [
-        2,
-        9
-      ],
-      "showTime": [
-        "11:00 pm",
-        "7:00 pm",
-        "9:00 pm"
-      ],
-      "id": 10
     },
     {
       "title": "Avatar",
@@ -106,73 +69,6 @@
         "9:00 pm"
       ],
       "id": 14
-    },
-    {
-      "id": 15,
-      "theaters": [
-        4,
-        6,
-        7
-      ],
-      "showTime": [
-        "9:00 pm"
-      ],
-      "title": "Mowgli Returns",
-      "year": "2023",
-      "runtime": "132 min",
-      "rating": "7.5/10",
-      "genere": "Adventure/Drama",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg"
-    },
-    {
-      "id": 16,
-      "theaters": [
-        5,
-        11
-      ],
-      "showTime": [
-        "8:00 pm",
-        "10:00 pm"
-      ],
-      "title": "The Enigma",
-      "year": "2023",
-      "runtime": "142 min",
-      "rating": "8.2/10",
-      "genere": "Mystery/Sci-Fi",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg"
-    },
-    {
-      "id": 17,
-      "theaters": [
-        12,
-        8
-      ],
-      "showTime": [
-        "7:30 pm",
-        "10:30 pm"
-      ],
-      "title": "Revenge",
-      "year": "2023",
-      "runtime": "105 min",
-      "rating": "7.8/10",
-      "genere": "Action/Thriller",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg"
-    },
-    {
-      "id": 18,
-      "theaters": [
-        2,
-        9
-      ],
-      "showTime": [
-        "8:30 pm"
-      ],
-      "title": "The Test Subject",
-      "year": "2023",
-      "runtime": "120 min",
-      "rating": "8.5/10",
-      "genere": "Sci-Fi/Mystery",
-      "poster": "https://i.ebayimg.com/images/g/YJQAAOSwUjxjyvgk/s-l1600.jpg"
     },
     {
       "id": 19,
@@ -269,53 +165,9 @@
       "rating": "8.4/10",
       "genere": "Sci-Fi/Fantasy",
       "poster": "https://lumiere-a.akamaihd.net/v1/images/avatar_800x1200_208c9665.jpeg?region=0%2C0%2C800%2C1200"
-    },
-    {
-      "id": 25,
-      "theaters": [
-        6,
-        7
-      ],
-      "showTime": [
-        "9:00 pm"
-      ],
-      "title": "Midnight in Paris",
-      "year": "2023",
-      "runtime": "130 min",
-      "rating": "7.9/10",
-      "genere": "Romance/Drama",
-      "poster": "https://venngage-wordpress.s3.amazonaws.com/uploads/2018/02/black-panther-poster-2-1.jpg"
     }
   ],
   "bookings": [
-    {
-      "movieId": 2,
-      "title": "Mowgli: Legend of the Jungle",
-      "selectedShowTime": "11:00 pm",
-      "selectedQuantity": 4,
-      "id": 32
-    },
-    {
-      "movieId": 4,
-      "title": "John Wick",
-      "selectedShowTime": "7:00 pm",
-      "selectedQuantity": 4,
-      "id": 37
-    },
-    {
-      "movieId": 4,
-      "title": "John Wick",
-      "selectedShowTime": "7:00 pm",
-      "selectedQuantity": 4,
-      "id": 38
-    },
-    {
-      "movieId": 4,
-      "title": "John Wick",
-      "selectedShowTime": "9:00 pm",
-      "selectedQuantity": 1,
-      "id": 39
-    },
     {
       "movieId": 4,
       "title": "John Wick",
@@ -324,11 +176,18 @@
       "id": 40
     },
     {
-      "movieId": 2,
-      "title": "Mowgli: Legend of the Jungle",
-      "selectedShowTime": "7:00 pm",
-      "selectedQuantity": 3,
-      "id": 41
+      "movieId": 3,
+      "title": "Doctor Strange",
+      "selectedShowTime": "9:00 pm",
+      "selectedQuantity": 5,
+      "id": 42
+    },
+    {
+      "movieId": 3,
+      "title": "Doctor Strange",
+      "selectedShowTime": "9:00 pm",
+      "selectedQuantity": 4,
+      "id": 43
     }
   ],
   "theaters": [
@@ -342,7 +201,12 @@
       "resolution": "4k",
       "dimention": "3D",
       "speakers": 18,
-      "screenSize": 96
+      "screenSize": 96,
+      "showTime": [
+        "4:00 pm",
+        "7:00 pm",
+        "10:00 pm"
+      ]
     },
     {
       "id": 2,
@@ -354,7 +218,12 @@
       "resolution": "4k",
       "dimention": "3D",
       "speakers": 42,
-      "screenSize": 206
+      "screenSize": 206,
+      "showTime": [
+        "2:00 pm",
+        "5:00 pm",
+        "8:00 pm"
+      ]
     },
     {
       "id": 3,
@@ -366,7 +235,12 @@
       "resolution": "4k",
       "dimention": "3D",
       "speakers": 28,
-      "screenSize": 80
+      "screenSize": 80,
+      "showTime": [
+        "3:00 pm",
+        "6:00 pm",
+        "9:00 pm"
+      ]
     },
     {
       "id": 4,
@@ -378,7 +252,12 @@
       "resolution": "4k",
       "dimention": "3D",
       "speakers": 30,
-      "screenSize": 109
+      "screenSize": 109,
+      "showTime": [
+        "5:00 pm",
+        "8:00 pm",
+        "11:00 pm"
+      ]
     }
   ]
 }
