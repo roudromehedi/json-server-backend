@@ -133,6 +133,176 @@
       "rating": "8.7/10",
       "genere": "Adventure/Drama",
       "poster": "https://i.ebayimg.com/images/g/YJQAAOSwUjxjyvgk/s-l1600.jpg"
+    },
+    {
+      "title": "The Secret Garden",
+      "year": "2001",
+      "runtime": "20",
+      "rating": "8/10",
+      "genere": "Romance",
+      "poster": "https://marketplace.canva.com/EAFVCFkAg3w/1/0/1131w/canva-red-and-black-horror-movie-poster-AOBSIAmLWOs.jpg",
+      "theaters": [
+        2,
+        9
+      ],
+      "showTime": [
+        "9:00 pm",
+        "7:00 pm"
+      ],
+      "id": 24
+    },
+    {
+      "title": "Titanic",
+      "year": "2001",
+      "runtime": "20",
+      "rating": "8/10",
+      "genere": "Romance",
+      "poster": "https://img.fruugo.com/product/6/31/14366316_max.jpg",
+      "theaters": [
+        2,
+        9
+      ],
+      "showTime": [
+        "9:00 pm",
+        "7:00 pm"
+      ],
+      "id": 25
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "year": "2001",
+      "runtime": "20",
+      "rating": "8/10",
+      "genere": "Romance",
+      "poster": "https://marketplace.canva.com/EAFVCFkAg3w/1/0/1131w/canva-red-and-black-horror-movie-poster-AOBSIAmLWOs.jpg",
+      "theaters": [
+        9,
+        1
+      ],
+      "showTime": [
+        "9:00 pm",
+        "7:00 pm"
+      ],
+      "id": 26
+    },
+    {
+      "title": "ABCD",
+      "year": "2001",
+      "runtime": "20",
+      "rating": "8/10",
+      "genere": "Romance",
+      "poster": "https://img.fruugo.com/product/6/31/14366316_max.jpg",
+      "theaters": [
+        2,
+        9
+      ],
+      "showTime": [
+        "9:00 pm",
+        "7:00 pm"
+      ],
+      "id": 27
+    },
+    {
+      "title": "ABCD",
+      "year": "2001",
+      "runtime": "20",
+      "rating": "8/10",
+      "genere": "Romance",
+      "poster": "https://img.fruugo.com/product/6/31/14366316_max.jpg",
+      "theaters": [
+        2,
+        9
+      ],
+      "showTime": [
+        "9:00 pm",
+        "7:00 pm"
+      ],
+      "id": 28
+    },
+    {
+      "title": "ABCD",
+      "year": "2001",
+      "runtime": "20",
+      "rating": "8/10",
+      "genere": "Romance",
+      "poster": "https://img.fruugo.com/product/6/31/14366316_max.jpg",
+      "theaters": [
+        2,
+        9
+      ],
+      "showTime": [
+        "9:00 pm",
+        "7:00 pm"
+      ],
+      "id": 29
+    },
+    {
+      "title": "ABCD",
+      "year": "2001",
+      "runtime": "20",
+      "rating": "8/10",
+      "genere": "Romance",
+      "poster": "https://img.fruugo.com/product/6/31/14366316_max.jpg",
+      "theaters": [
+        2,
+        9
+      ],
+      "showTime": [
+        "9:00 pm",
+        "7:00 pm"
+      ],
+      "id": 30
+    },
+    {
+      "title": "ABCD",
+      "year": "2001",
+      "runtime": "20",
+      "rating": "8/10",
+      "genere": "Romance",
+      "poster": "https://img.fruugo.com/product/6/31/14366316_max.jpg",
+      "theaters": [
+        2,
+        9
+      ],
+      "showTime": [
+        "9:00 pm",
+        "7:00 pm"
+      ],
+      "id": 40
+    },
+    {
+      "title": "ABCD",
+      "year": "2001",
+      "runtime": "20",
+      "rating": "8/10",
+      "genere": "Romance",
+      "poster": "https://img.fruugo.com/product/6/31/14366316_max.jpg",
+      "theaters": [
+        2,
+        9
+      ],
+      "showTime": [
+        "9:00 pm",
+        "7:00 pm"
+      ],
+      "id": 41
+    },
+    {
+      "title": "ABCD",
+      "year": "2001",
+      "runtime": "20",
+      "rating": "8/10",
+      "genere": "Romance",
+      "poster": "https://img.fruugo.com/product/6/31/14366316_max.jpg",
+      "theaters": [
+        2,
+        9
+      ],
+      "showTime": [
+        "9:00 pm",
+        "7:00 pm"
+      ],
+      "id": 42
     }
   ],
   "bookings": [
@@ -156,6 +326,61 @@
       "selectedShowTime": "9:00 pm",
       "selectedQuantity": 4,
       "id": 43
+    },
+    {
+      "selectedShowTime": "11:00 pm",
+      "selectedQuantity": 3,
+      "id": 44
+    },
+    {
+      "selectedShowTime": "7:00 pm",
+      "selectedQuantity": 5,
+      "id": 45
+    },
+    {
+      "selectedShowTime": "9:00 pm",
+      "selectedQuantity": 2,
+      "id": 46
+    },
+    {
+      "selectedShowTime": "7:00 pm",
+      "selectedQuantity": 3,
+      "id": 47
+    },
+    {
+      "selectedShowTime": "9:00 pm",
+      "selectedQuantity": 4,
+      "id": 49
+    },
+    {
+      "selectedShowTime": "7:00 pm",
+      "selectedQuantity": 4,
+      "id": 50
+    },
+    {
+      "selectedShowTime": "9:00 pm",
+      "selectedQuantity": 4,
+      "id": 51
+    },
+    {
+      "selectedShowTime": "9:30 pm",
+      "selectedQuantity": 4,
+      "id": 52
+    },
+    {
+      "selectedShowTime": "9:30 pm",
+      "selectedQuantity": 3,
+      "id": 53
+    },
+    {
+      "selectedShowTime": "7:00 pm",
+      "selectedQuantity": 2,
+      "id": 54
+    },
+    {
+      "selectedShowTime": "9:00 pm",
+      "selectedQuantity": 2,
+      "id": 55
     }
   ],
   "theaters": [
